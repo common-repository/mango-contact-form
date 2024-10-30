@@ -1,0 +1,37 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.mango-contact-form .error{
+  color:red;
+  border-color:red;
+}
+
+.mango-contact-form .form-group {
+    margin: 1.3em 0;
+}
+
+.mango-form-result {
+    visibility: hidden;
+    height:0;
+}
+
+.mango-contact-form .loader{
+  display:none;
+}
+
+.mango-contact-form .spinner {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
